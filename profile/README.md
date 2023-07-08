@@ -486,6 +486,7 @@ Note that `Super` key corresponds to the button showing Windows icon in the usua
 
 | Command | Description |
 | ------- | ----------- |
+| `armcord` | Cross-platform, all-in-one voice and text chat Discord application focused on privacy. |
 | `asciinema` | Record and share your terminal sessions. |
 | `athena-theme-tweak` | Switch to different Athena themes. |
 | `athena-welcome` | Welcome application that allows main security tools installation and mirrorlist update. |
@@ -498,7 +499,6 @@ Note that `Super` key corresponds to the button showing Windows icon in the usua
 | `code` | Core engine of Visual Studio Code. |
 | `commentor` | Extract all comments from the specified URL resource. |
 | `convert` | Convert between image formats as well as resize an image, blur, crop, despeckle, dither, and much more. |
-| `discord` | Cross-platform, all-in-one voice and text chat application. |
 | `downgrade` | Downgrade one (or multiple) packages by using the pacman cache or the Arch Rollback Machine. |
 | `eog` | Image viewer. |
 | `fish` | A smart and user-friendly command line shell. |
