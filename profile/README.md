@@ -72,10 +72,6 @@ Click the icon above to explore Athena OS WSL in Microsoft Store App!
 * *Flexibility*: for its Arch nature, Athena is **flexible** and can easily evolve to the new needs of the users.
 <br>
 
-Wiki: https://github.com/Athena-OS/athena-iso/wiki
-<br>
-<br>
-
 ## Sponsors
 
 Dedicating my spare time to Athena OS in order to keep it stable, updated, flawless and with fixed tools is not easy, but providing your support will motivate me to invest my time to keep the project stable and updated.
@@ -105,337 +101,119 @@ Do you like it too? You may <a href="https://github.com/sponsors/Athena-OS">beco
 <br>
 
 <!--## Athena Beta Testing
-Would you like to test the latest changes and improvements offered on the next release of Athena OS? Join our [Discord community](https://discord.gg/DNjvQkb5Ad) and ask for entering in the Beta Project!
+Would you like to test the latest changes and improvements offered on the next release of Athena OS? Join our [Discord community](https://discord.gg/DNjvQkb5Ad) and ask for entering in the Beta Project! -->
 
-## Known Issues
-Due to some errors of `r2.garudalinux.org` mirror during the installation, before starting the installation, run:
-```
-sudo pacman -Syy
-sudo pacman -S athena-calamares-config
-```
-then, run the installation.
--->
+<!--## Contents
 
-## Latest Updates
-Here I would like to inform you about new features already tested and implemented that have been published in the newest release, for keeping you always informed in a comfortable way.
-
-**Athena OS**, code name **"Polias"** (ancient Greek: Πολιάς "of the city"), comes with several important fixes and new implementations!
-
-If you like it, please [support Athena OS](https://github.com/sponsors/Athena-OS)! It is appreciated.
-
-**Athena Polias** will provide:
-* **Blue Team** circular menu!
-* New hacking roles: **Blue Teamer** and **DoS Tester**
-* **10 terminals** to be chosen during the installation of Athena
-* **CyberChef** as APPLICATION! If you need to decode or encode what you wish, you don't need to use the browser for connecting to CyberChef. Athena gives you CyberChef as application! Give a look on the menu dock!
-* Automatic install of the right drivers for your PC. Now Athena can recognize your **GPU** and install the right drivers with no user interaction
-* **Xorg** now is set as default because of being more stable than Wayland (i.e., Screen Share)
-* Automatic recognition of **environment** (if **Virtual** or **Baremetal**) and install the right drivers for it
-* Automatic recognition of the selected **File System** and install of related management tools
-* Implemented **Environment choice** during the installation (currently only "No Desktop" and "GNOME" options)
-* Implemented several **GNOME extensions** for improving the **productivity** of the environment
-* Installed modules on **PowerShell**
-* Implemented **BASH autosuggestion** and **ZSH autosuggestion**
-* Implemented **Offline Install**
-* Implemented **Nano syntax highlighting** for highlighting your files opened by `nano` according to its programming language
-* After the installation, Athena recognizes what are the **fastest** Arch Linux, BlackArch and Chaotic mirrors and set them **automatically** in your new system.
-* Added **cpc** alias for copying file contents directly on the clipboard without opening files
-* Implemented **Athena Grub Theme**
-* Discord replaced by **ArmCord** for removing Discord telemetry and improve the **Privacy** of the OS
-* Added **Mullvad Browser** choice in order to have a further browser designed for **Privacy** (it integrates by OpenVPN too)
-* VSCode replaced by **Codium** for removing Microsoft telemetry (Codium is also faster than VSCode)
-* **Android mobile smartphones** can be recognized by Athena when connected by USB
-* `htb-play` now tracks the machines you found **user** or **root flags**
-* Added **more bookmarks** and **Wayback Machine extension** on the browser
-* HTB Update now should **refresh** the HTB Active Machines on PWNage menu each 15 days
-* Implementation of **OnionShare** for sharing in **anonymous way** all the info you need with your peer!
-* Added **Tor Browser**
-* Added **Edex-UI**: a cinematic terminal environment!
-* Implemented **GNOME Gestures Improvements** for improving the experience of users using touchpads
-* ZSWAP replaced by **ZRAM**
-
-Athena implemented also massive technical changes on her backend to improve her performance!
-  
-Remember, I left a **small challenge for you** inside the system! The tip is clear enough when you login...
-
-![image](https://github.com/Athena-OS/athena-iso/assets/83867734/a6492b39-35b7-4bfb-a95e-9c4187b43545)
-
-![image](https://github.com/Athena-OS/athena-iso/assets/83867734/6141d589-e6ae-407a-876b-0c7993830d8e)
-    
-## Contents
-
-- [🎉 Introduction](#intro)
-- [⚓ System Requirements](#requirement)
-- [🎁 Installation](#install)
-- [📐 Configuration](#config)
-- [🔥 Resources](#res)
-- [📷 Screenshots](#shots)
-- [❓ Support](#techsupport)
+- [🎉 Overview](#overview)
 - [📢 Publications](#publ)
 - [🫶 Partnerships](#part)
 - [❤️ Credits](#creds)
+-->
 
+<a id="overview"></a>
+## 🎉 Overview
+Athena OS is an open-source, Arch-based Linux distribution intended to build a new concept of pentesting operating system. Its purpose is to offer a different experience than the most used pentesting distributions by providing only tools that fit with the user needs and improving the access to hacking resources and learning materials.
 
-<a id="intro"></a>
-## 🎉 Introduction
-Athena is designed from scratch, so already during the development phase useless modules and services have been excluded in order to improve performance and resource consumption. Furthermore, this design approach allowed to review in detailed manner each single package and component to include inside the distribution. It led the OS to build a user-friendly environment, despite based on Arch Linux.
+Athena OS is designed from scratch, and, at development phase, useless modules and services have been excluded in order to improve performance and resource consumption. This design approach allows to review in detailed manner each single package and component to include inside the distribution. Despite being based on Arch Linux, Athena OS provides a very user-friendly environment.
 
-The heritage of Arch Linux impacts positively Athena OS:
-* Better performance: pacman is faster than apt 
-* Focused: Athena can be developed and maintained down to the smallest detail 
-* Much more security tools: Athena can rely on BlackArch repository, that contains much more security tools than APT repositories 
-* Freedom: during the installation, you can configure your Athena with any resource or service you need. 
-* Documentation: Arch Linux is very well documented on Internet for any need
-
-Athena's environment is based on GNOME Wayland that provide exciting features the user can enjoy!
-
-Let's give a detailed look on Athena! 
-<br>
-<br>
-
-<a id="requirement"></a>
-## ⚓ System Requirements
-Recommended system requirements for smooth usage in Athena are:
-* 30 GB of hard disk space, SSD preferred
-* At least 4GB of RAM
-* Processor with at least two cores
+Enjoy this panoramic tour on Athena OS!
 
 <br>
 
-<a id="install"></a>
-## 🎁 Installation
-
-Download the latest Athena release .iso file from the related section. According to your need, you can choose to install Athena on your computer natively, or implement it on a Virtual Machine (e.g., VMware or VirtualBox).
-
-Currently VirtualBox is affected by a bug is enabling 3D Acceleration, so keep it disabled.
-3D Acceleration also makes intermittent freezes on the environment if enabled on VMware or VirtualBox if you use xorg.
-It is strongly suggested to keep it disabled.
-
-When you mount the ISO to your pendrive or your Virtual Machine and boot up Athena, you will meet Athena Calamares Installer, that allows you to customise your future Athena OS as you wish.
+![athena-themes](https://user-images.githubusercontent.com/83867734/211237687-e238ad4c-8793-45df-9eb7-944b6cc98520.gif)
 
 <br>
 
-<a id="config"></a>
-## 📐 Configuration
+### Cyber Security Roles
+Select your favourite cyber security role among:
 
-### Latest Release
-After the installation and the first boot:
-* open Athena Welcome, clck on `HTB Update` and copy and paste your Hack The Box API key.
-
-The Hack The Box API Key can be retrieved by your Hack The Box profile settings -> "Create App Token".
-
-Remember to update Hack The Box machines by the `HTB Update` button periodically.
+💙 Blue Teamer 💙\
+🐞 Bug Bounty Hunter 🐞\
+🍘 Cracker Specialist 🍘\
+💀 DoS Tester 💀\
+🎓 Enthusiast Student 🎓\
+🔍 Forensic Analyst 🔍\
+🦠 Malware Analyst 🦠\
+📱 Mobile Analyst 📱\
+🌐 Network Analyst 🌐\
+🕵️ OSINT Specialist 🕵️\
+❤️ Red Teamer ❤️\
+🕸️ Web Pentester 🕸️
 
 <br>
 
-<a id="res"></a>
-## 🔥 Resources
+### Athena Cyber Hub
+Run vulnerable laboratories for learning and exploiting the most famous CVEs!
 
-### PenTOXIC Menu
+![image](https://github.com/Athena-OS/.github/assets/83867734/26808900-9c27-4be0-a95a-9cce5b7f73b1)
 
-PenTOXIC Menu is born for organizing in pretty manner all main security tools you need to start your hacking activity. It consists in two levels:
-* 1st level containing the several **hacking categories** as submenu, plus **Firefox** browser and **Code OSS** as editor
-* 2nd level consisting in the **hacking tools** deployed for each category
+<br>
 
-![image](https://user-images.githubusercontent.com/83867734/189539230-aa91b12c-8b93-424f-8473-9295cca8ad6b.png)
+### Hack The Box Tools
+Play free and retired Hack The Box machines for learning and improving your hacking skills!
 
-PenTOXIC changes its look according to the applied theme!
+![image](https://github.com/Athena-OS/.github/assets/83867734/d6aac3fa-dff6-49e9-8307-dfffb76b21aa)
 
-![image](https://user-images.githubusercontent.com/83867734/187024893-364af14b-e198-43f7-a979-625a01480e38.png)
-
-The list of the PenTOXIC menu, also deployable by Red Team Button, is:
-<table>
-  <tr>
-    <th>Information Gathering</th>
-    <td>Dmitry</td>
-    <td>Nmap</td>
-    <td>Spiderfoot</td>
-    <td>TheHarvester</td>
-    <td>enum4linux</td>
-    <td>wafw00f</td>
-    <td>Fierce</td>
-  </tr>
-  <tr>
-    <th>Vulnerability Analysis</th>
-    <td>Legion</td>
-    <td>Nikto</td>
-    <td>unix-privesc-check</td>
-  </tr>
-  <tr>
-    <th>Web Application Analysis</th>
-    <td>WPScan</td>
-    <td>Burpsuite</td>
-    <td>dirb</td>
-    <td>dirbuster</td>
-    <td>ffuf</td>
-    <td>Wfuzz</td>
-    <td>sqlmap</td>
-  </tr>
-  <tr>
-    <th>Password Attacks</th>
-    <td>John</td>
-    <td>Hashcat</td>
-    <td>Hydra</td>
-    <td>CEWL</td>
-    <td>CRUNCH</td>
-    <td>RSMangler</td>
-    <td>Medusa</td>
-  </tr>
-  <tr>
-    <th>Sniffing</th>
-    <td>mitmproxy</td>
-    <td>Responder</td>
-    <td>Wireshark</td>
-  </tr>
-  <tr>
-    <th>Wireless Testing</th>
-    <td>Aircrack-ng</td>
-    <td>Kismet</td>
-    <td>Reaver</td>
-    <td>Wifite</td>
-    <td>Fern Wifi Cracker</td>
-    <td>Spooftooph</td>
-  </tr>
-  <tr>
-    <th>Reverse Engineering</th>
-    <td>NASM</td>
-    <td>Radare2</td>
-  </tr>
-  <tr>
-    <th>Exploitation</th>
-    <td>SearchSploit</td>
-    <td>Metasploit</td>
-    <td>SEToolkit</td>
-  </tr>
-  <tr>
-    <th>Post Exploitation</th>
-    <td>PowerSploit</td>
-    <td>Mimikatz</td>
-    <td>evil-winrm</td>
-    <td>proxychains-ng</td>
-    <td>weevely</td>
-  </tr>
-</table>
+![image](https://github.com/Athena-OS/.github/assets/83867734/f1560dd6-7d96-4e60-802b-4d24c73686cd)
 
 <br>
 
 ### PWNage Menu
+Access instantly to the main hacking platforms and join the main Discord InfoSec Communities!
 
-PWNage Menu allows you to access quickly to the main hacking platforms for learning purposes and to join the main Discord InfoSec Communities:
-* 1st shell deploys all quick links to the main hacking platforms
-* 2nd shell can be accessed by the Discurity icon on top where the user has the opportunity to join several Discord InfoSec servers or open Discord App.
+![image](https://github.com/Athena-OS/.github/assets/83867734/e70d6afb-8aae-4375-912b-adc908d3c29f)
 
-![image](https://user-images.githubusercontent.com/83867734/177038794-05892fb5-2c05-40be-9d1b-ea1b56410a57.png)
+![image](https://github.com/Athena-OS/.github/assets/83867734/82fb0fd6-7594-4f56-96df-d528317d321a)
 
 <br>
 
-### Hack The Box Integration
+### Blue Team Menu
+Access to the main security defensive tools that users need to start their Blue Team activity.
 
-<img src="https://user-images.githubusercontent.com/83867734/194704118-27225478-35e3-4b21-94a9-9fb8f0aea305.png" align=right width=100px>
+![image](https://github.com/Athena-OS/.github/assets/83867734/53d43812-680d-4323-8711-5947fce6d291)
 
-Cannot you wait for opening browser and accessing to Hack The Box website? Athena gives you the possibility to play Hack The Box machines directly on your Operating System environment in a quick and comfortable manner. Athena offers:
-* Connect/Disconnect to/from Hack The Box VPN servers
-* Play any active free machine you wish
-* Play Starting Point machines
-* Play Retired machines
-* Reset the active machine
-* Stop any active machine
-* Submit a flag and write a review about your hacking experience!
-* ... and of course you can access to the Hack The Box website in one click
+<br>
 
-<p align="center">
-  <img width="835" height="360" src="https://user-images.githubusercontent.com/83867734/212765538-4d6c7030-0891-4fe6-880b-b1475b3c3004.png">
-</p>
+### Red Team Menu
+Access to the main pentesting tools that users need to start their hacking activity.
 
-For playing Active HTB Machines, use PWNage Menu. For playing Retired Machines, just run `htb-play` and type the name of the machine you want to play.
+![image](https://github.com/Athena-OS/.github/assets/83867734/cad54729-2a6a-4a82-8f27-078e1a5eb472)
+
+<br>
+
+### Payload to Dock
+Keeps the access to the most famous payload repositories like SecLists or PayloadAllTheThings!
+
+![image](https://github.com/Athena-OS/.github/assets/83867734/66863907-96e6-461b-867f-69cb8d20f92b)
 
 <br>
 
 ### Browser Hack Mode
 
-<img src="https://user-images.githubusercontent.com/83867734/212761188-a99fb192-87a3-4ad4-8393-9db5b97761ae.png" align=right width=100px>
-<img src="https://user-images.githubusercontent.com/83867734/177051677-d8a7efa4-cfb3-407e-8569-195ba8a483b3.png" align=right width=100px>
+Get a tons of web resources and extensions that can help you to make your searches and activities more efficient!
 
-Firefox ESR and Brave have been modified in order to integrate at the installation time the addons you need for your web application pentesting activity. The preinstalled addons are:
-* Cookie Quick Manager
-* FoxyProxy Standard
-* Hack-Tools
-* HacKontext
-* HTTPS Everywhere
-* Penetration Testing Kit
-* Privacy 
-* uBlock Origin
-* Wappalyzer
-* Wayback Machine
-<br>
-
-### Payload to Dock
-
-Payload to Dock is based on Dash 2 Dock and keeps the access to the most famous payload repositories. It allows you to get the latest version of payloads and accessing their path directly by the shell. It shows:
-* Auto Wordlists
-* FuzzDB
-* PayloadAllTheThings
-* SecLists
-* Security Wordlist
-
-The Dock contains also links to Mimikatz and Powersploit.
-
-  <img width="883" height="159" src="https://user-images.githubusercontent.com/83867734/177040060-ae74270f-0528-4e4b-972f-a2c293578263.png">
-
-<br>
-
-### BlackArch Repository
-
-<img src="https://user-images.githubusercontent.com/83867734/177051929-9a248a26-fc4f-4741-bc14-af679e2eb7b2.png" align=right width=150px>
-
-BlackArch Linux is an Arch Linux-based penetration testing distribution for penetration testers and security researchers. Its repository contains [2800+ tools](https://blackarch.org/tools.html), classified for categories. You can install tools individually or in groups according to the categories they belong. BlackArch Repository is compatible with only Arch-based distributions as Athena OS.
-
-<br>
+![image](https://github.com/Athena-OS/.github/assets/83867734/57ea6b44-d962-4d9b-910c-31e4f21475df)
 
 ### NIST Feed
 
-**NIST Feed** is a special tool able to **inform** you as soon as possible about a **new published** or **updated** CVE by a **popup notification**!
-The notification contains a **description of the CVE**. Are you curious about it and would like to access to details? Left-click on it and you will be redirected to the **official NIST NVD page** for further details. Do you want to quickly close the popup notification? Right-click on it!
-
-You can **decide** which kind of CVE you wish to be informed about, for example CVEs with an high impact on the confidentiality and integrity, or CRITICAL CVEs.
-
-Just execute:
-```
-nist-feed -h
-```
-for getting more details.
-
-Be aware of new vulnerabilities by NIST Feed!
+Stay tuned on new published or updated CVEs!
 
 ![nist-feed](https://user-images.githubusercontent.com/83867734/194702130-a753eb5b-53bf-4303-87a8-dba897bde7ef.png)
 
 <br>
 
-<a id="shots"></a>
-## 📷 Screenshots
-![athena-themes](https://user-images.githubusercontent.com/83867734/211237687-e238ad4c-8793-45df-9eb7-944b6cc98520.gif)
-<br>
-<a id="map"></a>
-
-<a id="techsupport"></a>
-## ❓ Support
-If you detect any issues during your experience, please [open an issue](https://github.com/Athena-OS/athena-iso/issues/new/choose) on athena-iso GitHub repository. Current troubleshooting:
-* After the first login of Discord App, at the next access on the application, if it freezes during the starting, reboot the system and the issue will be fixed.
-* During the installation or usage, if you are getting issues related to the blackarch.db retrieving packages or keys, check for any firewall your traffic is routed through and whitelist `blackarch.org`.
-* AkameGaKill theme cannot apply red theme for legacy windows due to GTK 4.0 files missing.
-* On Bloodhound, when neo4j database is run by `sudo neo4j console`, we can get some errors like:
-  ```
-  Exception in thread "main" java.lang.LinkageError: Cannot to link java.nio.DirectByteBuffer
-  ```
-  For solving it, just run neo4j server by `systemctl start neo4j`. You can check the proof that the server is correctly running by `systemctl status neo4j`.
-
 <a id="publ"></a>
 ## 📢 Publications
 PenTest Magazine: https://pentestmag.com/product/pentest-open-source-pentesting-toolkit/ (Click **Download** for getting the complete Magazine!)
 
+<br>
+
 <a id="part"></a>
 ## 🫶 Partnerships
 A **huge thanks** to all Partners of Athena OS! They strongly contribute on making Athena reachable to new users and greater!
+
+<br>
 
 <p align="left">
   <a href="https://fosstorrents.com/">
@@ -443,12 +221,13 @@ A **huge thanks** to all Partners of Athena OS! They strongly contribute on maki
   </a>
 </p>
 
+<br>
+
 <a id="creds"></a>
 ## ❤️ Credits
 * [ArcoLinux Project](https://www.arcolinux.info): Resources and Learning materials
 * [Calamares Team](https://calamares.io): Calamares Installer
-* [Simon Schneegans](https://github.com/Schneegans): Fly-Pie menu and Burn My Window extensions
+* [Simon Schneegans](https://github.com/Schneegans): Fly-Pie menu extension
 * [Hack The Box](https://www.hackthebox.com): Bash and PowerShell icons; Hack The Box icon
 * [Offensive Security](https://www.offensive-security.com): Kali Linux security tools icons; Offensive Security icon
 * [Kitsunekun](https://www.furaffinity.net/view/23914148): Athena Chibi Logo
-* [Red Team Village](https://redteamvillage.io): PWNage menu icon
