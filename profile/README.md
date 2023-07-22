@@ -73,29 +73,46 @@ Click the icon above to explore Athena OS WSL in Microsoft Store App!
 <br>
 
 ## Sponsors
-
 Dedicating my spare time to Athena OS in order to keep it stable, updated, flawless and with fixed tools is not easy, but providing your support will motivate me to invest my time to keep the project stable and updated.
-<br>
-<br>
-<h2 align="center">🥇 Gold Sponsors 🥇</h2>
-<p align="center">
-  <a href='https://github.com/shard77'>@shard77</a><br>
-  <a href='https://github.com/Apok01'>@Apok01</a><br>
-</p>
-<br>
-<h2 align="center">🥉 Bronze Sponsors 🥉</h2>
-<p align="center">
-  <a href='https://github.com/Martian1337'>@Martian1337</a><br>
-</p>
-<br>
-<h2 align="center">☕ Coffee Sponsors ☕</h2>
-<p align="center">
-  @IlMioAmicoAle<br>
-  <a href='https://github.com/mcfly76'>@mcfly76</a><br>
-  <a href='https://github.com/SinSiXX'>@SinSiXX</a><br>
-  <a href='https://github.com/CriminalShrimp'>@CriminalShrimp</a><br>
-</p>
-<br>
+
+<!DOCTYPE html>
+<html>
+<body>
+    <table>
+        <tr>
+            <th>🥇 Gold Sponsors 🥇</th>
+            <th>🥈 Silver Sponsors 🥈</th>
+            <th>🥉 Bronze Sponsors 🥉</th>
+            <th>☕ Coffee Sponsors ☕</th>
+        </tr>
+        <tr>
+            <td><a href='https://github.com/shard77'>@shard77</a><br></td>
+            <td></td>
+            <td><a href='https://github.com/Martian1337'>@Martian1337</a><br></td>
+            <td>@IlMioAmicoAle<br></td>
+        </tr>
+        <tr>
+            <td><a href='https://github.com/Apok01'>@Apok01</a><br></td>
+            <td></td>
+            <td></td>
+            <td><a href='https://github.com/mcfly76'>@mcfly76</a><br></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a href='https://github.com/SinSiXX'>@SinSiXX</a><br></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><a href='https://github.com/CriminalShrimp'>@CriminalShrimp</a><br></td>
+        </tr>
+    </table>
+</body>
+</html>
+
 Do you like it too? You may <a href="https://github.com/sponsors/Athena-OS">become a sponsor by offering me one coffee ☕ / month</a>!
 <br>
 <br>
