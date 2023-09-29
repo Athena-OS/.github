@@ -86,13 +86,13 @@ Dedicating my spare time to Athena OS in order to keep it stable, updated, flawl
             <th>☕ Coffee Sponsors ☕</th>
         </tr>
         <tr>
-            <td><a href='https://github.com/shard77'>@shard77</a><br></td>
-            <td><a href='https://github.com/Hannes1909'>@Hannes1909</td>
+            <td><a href='https://github.com/Apok01'>@Apok01</a><br></td>
+            <td><a href='https://github.com/Hannes1909'>@Hannes1909</a><br></td>
             <td><a href='https://github.com/Martian1337'>@Martian1337</a><br></td>
             <td>@IlMioAmicoAle<br></td>
         </tr>
         <tr>
-            <td><a href='https://github.com/Apok01'>@Apok01</a><br></td>
+            <td></td>
             <td></td>
             <td></td>
             <td><a href='https://github.com/mcfly76'>@mcfly76</a><br></td>
