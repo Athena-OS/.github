@@ -92,7 +92,7 @@ Dedicating my spare time to Athena OS in order to keep it stable, updated, flawl
             <td>@IlMioAmicoAle<br></td>
         </tr>
         <tr>
-            <td></td>
+            <td><a href='https://github.com/orion715'>@orion715</a><br></td>
             <td></td>
             <td></td>
             <td><a href='https://github.com/mcfly76'>@mcfly76</a><br></td>
