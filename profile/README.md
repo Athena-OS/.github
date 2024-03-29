@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Built with Nix-grey?style=for-the-badge&logo=nixos&color=%23282828">
-  <a target="_blank" href="https://github.com/Athena-OS/athena-nix/releases/tag/v23.11">
+  <a target="_blank" href="https://github.com/Athena-OS/athena/releases/tag/v23.11">
     <img src="https://img.shields.io/github/v/release/Athena-OS/athena-nix?style=for-the-badge&color=%23DAA632&labelColor=%23282828">
   </a>
   <a target="_blank" href="#downloads">
