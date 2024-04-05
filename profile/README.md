@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Built with Nix-grey?style=for-the-badge&logo=nixos&color=%23282828">
   <a target="_blank" href="https://github.com/Athena-OS/athena/releases/tag/v23.11">
-    <img src="https://img.shields.io/github/v/release/Athena-OS/athena-nix?style=for-the-badge&color=%23DAA632&labelColor=%23282828">
+    <img src="https://img.shields.io/github/v/release/Athena-OS/athena?style=for-the-badge&color=%23DAA632&labelColor=%23282828">
   </a>
   <a target="_blank" href="#downloads">
     <img alt="Download Athena OS" src="https://img.shields.io/sourceforge/dt/athena-iso?style=for-the-badge&labelColor=%23282828&color=%23DAA632&link=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fathena-iso%2Ffiles%2Flatest%2Fdownload">
@@ -11,13 +11,13 @@
   <a target="_blank" href="https://discord.com/invite/AHXqyJHhGc">
     <img src="https://img.shields.io/discord/977645785170714644?style=for-the-badge&logo=discord&label=Discord&labelColor=282828&color=DAA632">
   </a>
-  <img src="https://img.shields.io/github/license/Athena-OS/athena-nix?style=for-the-badge&color=%23DAA632&labelColor=%23282828">
+  <img src="https://img.shields.io/github/license/Athena-OS/athena?style=for-the-badge&color=%23DAA632&labelColor=%23282828">
 </p>
 
 <br>
 
 <div align="left">
-    <img align="left" src="https://media.discordapp.net/attachments/1116690629733400696/1202353321822912582/Athenaos-Squared-black.png?ex=65d6604a&is=65c3eb4a&hm=422dd6a129ace86d06e89b743d6ca63f4226c7df18c6123b38107d655414335d&=&format=webp&quality=lossless&width=200&height=200">
+    <img align="left" src="https://github.com/Athena-OS/.github/assets/83867734/e89b98f6-a1e8-45c3-be60-290d6feaf68c" width="400" height="auto">
     &nbsp;
     <h1>Athena OS</h1>
     <p>
