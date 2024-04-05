@@ -139,7 +139,7 @@ Dedicating our spare time to Athena OS in order to keep the project stable, upda
         <td><a href='https://github.com/mcfly76'>@mcfly76</a><br></td>
     </tr>
     <tr>
-        <td></td>
+        <td><a href='https://github.com/missingjvne'>@missingjvne</a><br></td>
         <td></td>
         <td></td>
         <td><a href='https://github.com/SinSiXX'>@SinSiXX</a><br></td>
