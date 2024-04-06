@@ -128,7 +128,7 @@ Dedicating our spare time to Athena OS in order to keep the project stable, upda
     </tr>
     <tr>
         <td><a href='https://github.com/Apok01'>@Apok01</a><br></td>
-        <td><a href='https://github.com/Hannes1909'>@Hannes1909</a><br></td>
+        <td></td>
         <td><a href='https://github.com/Martian1337'>@Martian1337</a><br></td>
         <td>@IlMioAmicoAle<br></td>
     </tr>
@@ -141,7 +141,7 @@ Dedicating our spare time to Athena OS in order to keep the project stable, upda
     <tr>
         <td><a href='https://github.com/missingjvne'>@missingjvne</a><br></td>
         <td></td>
-        <td></td>
+        <td><a href='https://github.com/Sudo-Ivan'>@Sudo-Ivan</a><br></td>
         <td><a href='https://github.com/SinSiXX'>@SinSiXX</a><br></td>
     </tr>
     <tr>
