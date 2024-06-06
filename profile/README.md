@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/Athena-OS/assets/main/banners/athena-banner-discord-bottom-transparent.png" width="auto">
+<img src="https://github.com/Athena-OS/.github/assets/83867734/e938660d-cd3d-4e14-851f-0e19677bef89" width="auto">
 
 <p align="center">
   <img src="https://img.shields.io/badge/Built with Nix-grey?style=for-the-badge&logo=nixos&color=%23282828">
