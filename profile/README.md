@@ -117,42 +117,14 @@ You can also join our [Discord Server](https://discord.com/invite/AHXqyJHhGc) to
 ## Sponsors
 Dedicating our spare time to Athena OS in order to keep the project stable, updated, and continuing to integrate new stuff is not easy, but providing your support will make it possible for us to invest more time, pushing the project as far as possible.
 
-<br>
+**These awesome people have already donated to the development of Athena OS:**
 
-<table>
-    <tr>
-        <th>🥇 Gold sponsors</th>
-        <th>🥈 Silver sponsors</th>
-        <th>🥉 Bronze sponsors</th>
-        <th>☕ Coffee sponsors</th>
-    </tr>
-    <tr>
-        <td><a href='https://github.com/Apok01'>@Apok01</a><br></td>
-        <td></td>
-        <td><a href='https://github.com/Martian1337'>@Martian1337</a><br></td>
-        <td>@IlMioAmicoAle<br></td>
-    </tr>
-    <tr>
-        <td><a href='https://github.com/missingjvne'>@missingjvne</a><br></td>
-        <td></td>
-        <td><a href='https://github.com/Sudo-Ivan'>@Sudo-Ivan</a><br></td>
-        <td><a href='https://github.com/mcfly76'>@mcfly76</a><br></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><a href='https://github.com/SinSiXX'>@SinSiXX</a><br></td>
-    </tr>
-    <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td><a href='https://github.com/CriminalShrimp'>@CriminalShrimp</a><br></td>
-    </tr>
-</table>
-
-<br>
+<a href="https://athena-os.github.io/sponsors-hall-of-fame/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://athena-os.github.io/sponsors-hall-of-fame/sponsors_dark_small.svg">
+    <img alt="Sponsors List" src="https://athena-os.github.io/sponsors-hall-of-fame/sponsors_light_small.svg#gh-light-mode-only">
+  </picture>
+</a>
 
 Do you like the project? You may <a href="https://github.com/sponsors/Athena-OS">become a sponsor by offering us one coffee ☕ / month</a>!
 
