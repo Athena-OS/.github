@@ -47,7 +47,7 @@ Athena OS is available under the following architectures:
 > The docker image and WSL version are still on the old Arch Linux distribution, this will be updated in the future.
 
 <div align="left">
-  <a target="_blank" href="https://github.com/Athena-OS/athena-nix/releases">
+  <a target="_blank" href="https://github.com/Athena-OS/athena/releases/tag/v23.11">
       <img src="https://img.shields.io/badge/download-grey?style=for-the-badge&logo=make&label=ISO Image&labelColor=%23282828&color=%23DAA632">
   </a>
   <a target="_blank" href="https://hub.docker.com/u/athenaos">
@@ -60,9 +60,9 @@ Athena OS is available under the following architectures:
 
 ## Overview
 
-Athena OS is an open-source, NixOS-based distribution intended to build a new concept of pentesting operating system. Its purpose is to offer a different experience than the most used pentesting distributions by providing reproducibility, flexibility, isolation, default packages that fit with the user needs, diverse hacking resources and learning materials.
+Athena OS is an open-source, Arch-based and Nix-based distribution intended to build a new concept of pentesting operating system. Its purpose is to offer a different experience than the most used pentesting distributions by providing reproducibility, flexibility, isolation, and only those tools that fit with the user needs and improving the access to hacking resources and learning materials.
 
-The project is designed from scratch, in development phase, useless modules and services have been excluded in order to improve performance and resource consumption. This design approach allows to review in a detailed manner each single package and component that will be included in the distribution. Despite being based on NixOS, that at first impact could seem to be hard to use, Athena OS offers a user-friendly environment to facilitate the usage.
+Athena OS is designed from scratch, and, at development phase, useless modules and services have been excluded in order to improve performance and resource consumption. This design approach allows to review in detailed manner each single package and component to include inside the distribution. Despite being based on Arch and Nix that at first impact could seem hard to use, Athena OS offers a very user-friendly environment to make easy the usage of the resources.
 
 ![athena-themes](https://user-images.githubusercontent.com/83867734/211237687-e238ad4c-8793-45df-9eb7-944b6cc98520.gif)
 
