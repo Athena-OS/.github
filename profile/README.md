@@ -130,7 +130,8 @@ Do you like the project? You may <a href="https://github.com/sponsors/Athena-OS"
 
 ## Credits
 
-* [NixOS/Nix/Nixpkgs Contributors](https://github.com/NixOS/): Reviewing, packaging and maitaining tools
+* [BlackArch Repository](https://www.blackarch.org/): Arch-based pentesting tools
+* [NixOS/Nix/Nixpkgs Contributors](https://github.com/NixOS/): Reviewing, packaging and maintaining tools
 * [Simon Schneegans](https://github.com/Schneegans): Fly-Pie menu extension
 * [Hack The Box](https://www.hackthebox.com): Bash and PowerShell icons; Hack The Box icon
 * [Offensive Security](https://www.offensive-security.com): Kali Linux security tools icons; Offensive Security icon
