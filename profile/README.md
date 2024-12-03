@@ -42,7 +42,7 @@ Athena OS is available under the following architectures:
 - WSL (Windows Subsystems For Linux)
 
 > [!WARNING]
-> We have merged from Arch Linux to a Nix/NixOS-based distribution, currently in pre-release (beta).
+> Athena OS is distributed as Arch Linux and Nix/NixOS-based distribution.
 > <br>
 > The docker image and WSL version are still on the old Arch Linux distribution, this will be updated in the future.
 
