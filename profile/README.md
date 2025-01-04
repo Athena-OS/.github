@@ -37,7 +37,7 @@ Athena OS is available under the following architectures:
 
 - ISO Image
 - Docker Image
-- WSL (Windows Subsystems For Linux)
+- WSL (Windows Subsystem For Linux)
 
 > [!WARNING]
 > Athena OS is distributed as Arch Linux and Nix/NixOS-based distribution.
@@ -45,7 +45,7 @@ Athena OS is available under the following architectures:
 > The docker image and WSL version are still on the old Arch Linux distribution, this will be updated in the future.
 
 <div align="left">
-  <a target="_blank" href="https://github.com/Athena-OS/athena/releases/tag/v23.11">
+  <a target="_blank" href="https://github.com/Athena-OS/athena/releases/latest">
       <img src="https://img.shields.io/badge/download-grey?style=for-the-badge&logo=make&label=ISO Image&labelColor=%23282828&color=%23DAA632">
   </a>
   <a target="_blank" href="https://hub.docker.com/u/athenaos">
@@ -75,9 +75,26 @@ Fostering innovation, continually enhancing the user experience and features ove
 
 - **Organized Pentesting Tools**: Classified by [Cyber Roles](https://athenaos.org/en/resources/pentesting-tools/#cyber-security-roles) for efficiency.
 - **Hacking Resources**: Various hacking resources are available, including CVE Labs, custom tools and more!
+- **Performance**: Tweaked at kernel level to improve performance.
+- **Flexibility**: Allow deep customization of system configurations, with various presets and modules.
 - **Secure Software**: Only secure packages are retrieved, with continuous checks for vulnerabilities.
+- **Tailored pentesting tools**: Pentesting tools categorized by **Cyber Roles**.
+- **Minimalist**: No unnecessary bloatware.
+- **FOSS**: Forever fully open-source and accessible to everyone.
+- **Comprehensive  documentation**: Clear, accurate and extensive documentation.
+- **Industry-compliant**: Built according to the [Filesystem Hierarchy Standard](https://www.pathname.com/fhs/), [ISO-9660](https://www.iso.org/obp/ui/#iso:std:iso:9660:ed-1:v1:en) and [FAT32 requirements](https://www.keil.com/pack/doc/mw6/FileSystem/html/fat_fs.html#:~:text=Volume%20name,%5B%20%5D%20%22%22%20).
+
+#### Athena Arch
+
+- **More and more pentesting tools**: Thousands of pentesting and security tools continuously maintained in order to improve the efficiency of their usage and kept updated for getting a cleaned and secured environment.
+- **Trusted packages**: GPG-signed and maintained in a public and dedicated repository.
+- **Rolling release model**: Updated continuously to have access to the latest features, security patches, and software versions.
+- **Customizability**: "Do-it-yourself" and build your system from the ground up.
+- **AUR (Arch User Repository)**: Vast community-driven repository that extends the official Arch Linux repositories.
+
+#### Athena Nix
+
 - **Declarative Configuration**: Declarative approach to system configuration.
-- **Flexibility**: Allows deep customization of system configurations, with various presets and modules.
 - **Immutable System State**: Configuration changes result in a new system state for consistency.
 - **Conflict Prevention**: Isolated packages with explicitly declared dependencies prevent conflicts.
 - **Atomic Upgrades and Rollbacks**: Supports seamless transitions between system states.
@@ -85,7 +102,6 @@ Fostering innovation, continually enhancing the user experience and features ove
 - **Lazy Evaluation**: Packages built on demand, reducing unnecessary builds.
 - **Isolation and Sandboxing**: Enhanced security through package isolation and sandboxed builds.
 - **Cross-Platform Support**: Designed for flexibility across different platforms.
-- **FOSS**: Forever fully open-source and accessible to everyone.
 
 ### Cyber Resources
 
